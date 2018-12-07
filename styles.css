@@ -162,7 +162,7 @@ img {
 }
     .dropdown-content {
        position: absolute;
-        left: 20%;
+        left: 25px;
     }  
 }
 
