@@ -139,11 +139,25 @@ img {
     text-align: center;
 }
 
+@media screen and (min-width: 601px) {
+    .background {
+        background-image:url(travel/boats.jpg);
+        background-size: cover;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .background {
+        background-image:url(campus/snowflakes.jpg);
+        background-size: cover;
+        height: 80vh;
+    }
+}
+
 @media screen and (max-width: 375px) {
-    .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
+   .dropdown-content {
+       left: -2%;
     }
 }
 
@@ -167,16 +181,16 @@ img {
 
 .to-gallery a:link {
     text-decoration: none;
-    color: #414535;
+    color: #f2e3bc;
 }
 
 .to-gallery a:visited {
     text-decoration: none;
-    color: #414535;
+    color: #f2e3bc;
 }
 
 .to-gallery a:hover {
-    color: #f2e3bc;
+    color: #c19875;
     cursor: pointer;
 }
 

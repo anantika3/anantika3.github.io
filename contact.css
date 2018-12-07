@@ -275,6 +275,12 @@ img {
 
 }
 
+@media screen and (max-width: 375px) {
+   .dropdown-content {
+       left: -2%;
+    }
+}
+
 /*.welcome-text {
     position: absolute;
     top: 38%;
