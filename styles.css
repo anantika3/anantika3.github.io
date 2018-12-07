@@ -161,7 +161,7 @@ img {
     background-size: cover;
 }
     .dropdown-content {
-        left: 11% !important;
+        left: -11% !important;
     }  
 }
 
