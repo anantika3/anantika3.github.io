@@ -159,10 +159,7 @@ img {
 .background {
         background-image:url(campus/snowflakes.jpg);
     background-size: cover;
-}
-    .dropdown-content {
-        right: 100px !important;
-    }  
+} 
 }
 
 .welcome-text {
