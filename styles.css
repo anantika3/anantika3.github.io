@@ -139,6 +139,14 @@ img {
     text-align: center;
 }
 
+@media screen and (max-width: 375px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
 .welcome-text {
     position: absolute;
     top: 38%;

@@ -179,6 +179,14 @@ img {
     }
 }
 
+@media screen and (max-width: 375px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
 .footer {
     grid-column: span 12;
     background-color: #618985;
