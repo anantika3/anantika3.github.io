@@ -67,6 +67,7 @@ html {
     font-family: 'Carrois Gothic SC', sans-serif;
     font-size: 20px;
     border: none;
+    background-color: white !important;
 }
 
 .dropdown {
@@ -77,7 +78,7 @@ html {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: white !important;
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
