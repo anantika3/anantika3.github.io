@@ -160,8 +160,12 @@ img {
         background-image:url(campus/snowflakes.jpg);
     background-size: cover;
 }
-    .dropdown-content {
+    /*.dropdown-content {
         left: 11%;
+    }*/
+    
+    .my-name {
+        font-size: 18px;
     }
 }
 
