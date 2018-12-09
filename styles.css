@@ -25,6 +25,7 @@ html {
     font-size: 37px;
     position: relative;
     font-weight: bold;
+    word-wrap: normal;
 }
 
 .my-name a:link {
@@ -163,10 +164,6 @@ img {
     /*.dropdown-content {
         left: 11%;
     }*/
-    
-    .my-name {
-        font-size: 18px;
-    }
 }
 
 .welcome-text {
